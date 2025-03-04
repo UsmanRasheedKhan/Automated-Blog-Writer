@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.blog-content {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  line-height: 1.8;
+}
+
+.blog-content h1 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+.blog-content h2 {
+  padding-bottom: 0.2em;
+}
+
+.blog-content p {
+  margin-bottom: 1.2em;
+}
+
+.blog-content ul, .blog-content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #ddd;
+  margin: 1em 0;
+  padding-left: 1em;
+  color: #666;
+}
+
+.blog-content strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.references-section {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.references-section a {
+  color: #1976d2;
+  text-decoration: underline;
 }
